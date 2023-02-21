@@ -23,6 +23,24 @@ public class BrandsApplication {
 			.brandFrom(Brand.Balenciaga)
 			.price(20000)
 			.yearcreated(2024).build());
+
+			repository.save(item.builder()
+			.name("Glasses")
+			.brandFrom(Brand.Gucci)
+			.price(3499)
+			.yearcreated(2025).build());
+
+			repository.save(item.builder()
+			.name("Patchik")
+			.brandFrom(Brand.StoneIsland)
+			.price(999999)
+			.yearcreated(2500).build());
+
+			repository.save(item.builder()
+			.name("Perfume")
+			.brandFrom(Brand.Dior)
+			.price(1499)
+			.yearcreated(2100).build());
 		};
 
 }
