@@ -41,6 +41,42 @@ public class BrandsApplication {
 			.brandFrom(Brand.Dior)
 			.price(1499)
 			.yearcreated(2100).build());
+
+			repository.save(item.builder()
+			.name("Tie")
+			.brandFrom(Brand.Dior)
+			.price(2199)
+			.yearcreated(2121).build());
+
+			repository.save(item.builder()
+			.name("99227 LIGHT SOFT SHELL-R_E.DYE® TECHNOLOGY IN RECYCLED POLYESTER")
+			.brandFrom(Brand.StoneIsland)
+			.price(10298)
+			.yearcreated(2486).build());
+
+			repository.save(item.builder()
+			.name("Burger")
+			.brandFrom(Brand.Gucci)
+			.price(99999999)
+			.yearcreated(9999).build());
+
+			repository.save(item.builder()
+			.name("Idk")
+			.brandFrom(Brand.Balenciaga)
+			.price(1499)
+			.yearcreated(2092).build());
+
+			repository.save(item.builder()
+			.name("John Depp")
+			.brandFrom(Brand.Dior)
+			.price(1499)
+			.yearcreated(2100).build());
+
+			repository.save(item.builder()
+			.name("Hudak")
+			.brandFrom(Brand.StoneIsland)
+			.price(7899)
+			.yearcreated(2488).build());
 		};
 
 }
